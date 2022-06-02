@@ -1,0 +1,164 @@
+body {
+    height: 100vh;
+    min-height: 150px;
+    font-size: 100%;
+}
+
+footer {
+    font-family: "Archivo";
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+.navbar img {
+    max-width: 18%;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.top-navbar {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.top-navbar-drop {
+    font-family: JetBrains Mono;
+    color: white !important;
+}
+
+.top-navbar-drop:hover {
+    color: black !important;
+}
+
+.linkin-image,
+.github-image {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: auto;
+    padding-left: 15px;
+}
+
+.github-image {
+    display: inline;
+}
+
+.nav-link {
+    font-family: JetBrains Mono;
+    font-size: 20px;
+}
+
+.homepage {
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+}
+
+.homepage-heading {
+    padding: 12% 10% 0%;
+}
+
+.homepage-heading h1 {
+    font-family: "Bayon";
+    font-size: 10em;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+.homepage-heading h2 {
+    font-family: "Archivo Narrow";
+    font-size: 9em;
+    line-height: 140px;
+}
+
+.homepage-heading .front-end {
+    text-align: left;
+}
+
+.homepage-heading .developer {
+    text-align: center;
+}
+
+.homepage-heading-button {
+    font-family: "Archivo";
+    font-size: 50px;
+    float: left;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #f8d354;
+    background: #f8d354;
+    padding: 40px 30px;
+    border-radius: 90px;
+    box-shadow: 4px 3px 6px #a5a5a5;
+}
+
+.my-work {
+    background-color: #363131;
+    padding: 6% 10% 0%;
+}
+
+.my-work h2 {
+    font-size: 8em;
+    color: white;
+    font-family: "Bayon";
+    text-shadow: 4px 0px 0px #9ca16f;
+    padding-bottom: 3%;
+}
+
+.my-work h6 {
+    font-family: Archivo Narrow;
+    font-size: 3em;
+}
+
+.my-work .my-work-wrapper {
+    background-color: white;
+    padding: 5% 5%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.my-work img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px #a5a5a5;
+}
+
+.my-work p,
+a {
+    font-family: "Archivo";
+    font-size: 1.5em;
+    color: #636262;
+}
+
+.my-work a {
+    text-decoration: none;
+    color: #9671f3;
+    border-radius: 10px;
+}
+
+.my-work a:hover {
+    color: rgb(240, 78, 105);
+}
+
+.my-work-button {
+    border: 1px solid #9671f3;
+    padding: 2% 2%;
+}
+
+@media (max-width: 992px) {
+    .top-navbar .col {
+        flex: 0;
+    }
+    .top-navbar .row {
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
