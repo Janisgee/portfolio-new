@@ -1,4 +1,5 @@
 body {
+    min-width: 500px;
     height: 100vh;
     min-height: 150px;
     font-size: 100%;
@@ -15,6 +16,7 @@ footer {
 
 .navbar img {
     max-width: 18%;
+    margin-left: 20px;
 }
 
 .navbar-collapse {
@@ -65,15 +67,15 @@ footer {
 
 .homepage-heading h1 {
     font-family: "Bayon";
-    font-size: 10em;
+    font-size: 12vw;
     text-align: right;
     margin-bottom: 0px;
 }
 
 .homepage-heading h2 {
     font-family: "Archivo Narrow";
-    font-size: 9em;
-    line-height: 140px;
+    font-size: 12vw;
+    line-height: 10vw;
 }
 
 .homepage-heading .front-end {
@@ -92,7 +94,7 @@ footer {
     text-decoration: none;
     border: 1px solid #f8d354;
     background: #f8d354;
-    padding: 40px 30px;
+    padding: 1% 2%;
     border-radius: 90px;
     box-shadow: 4px 3px 6px #a5a5a5;
 }
@@ -103,7 +105,7 @@ footer {
 }
 
 .my-work h2 {
-    font-size: 8em;
+    font-size: 12vw;
     color: white;
     font-family: "Bayon";
     text-shadow: 4px 0px 0px #9ca16f;
@@ -121,7 +123,6 @@ footer {
     border-radius: 10px;
     margin: 0 auto;
     margin-bottom: 5%;
-    box-shadow: inset 0 0 10px #000000;
 }
 
 .my-work img {
@@ -152,6 +153,34 @@ a {
     padding: 2% 2%;
 }
 
+@media (max-width: 1200px) {
+    .homepage-heading h1 {
+        display: inline-block;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10vw;
+    }
+    .homepage-heading .front-end {
+        text-align: center;
+        margin-top: 5vw;
+    }
+    .homepage-heading h2 {
+        line-height: 0;
+        padding-bottom: 8vw;
+        font-size: 10vw;
+    }
+    .homepage-heading-button {
+        float: none;
+        display: block;
+        font-size: 5vw;
+        padding: 1% 2%;
+        margin: 0 20vw;
+        text-align: center;
+    }
+}
+
 @media (max-width: 992px) {
     .top-navbar .col {
         flex: 0;
@@ -160,5 +189,20 @@ a {
         justify-content: center;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .homepage-heading .front-end {
+        margin-top: 10vw;
+    }
+}
+
+@media (max-width: 612px) {
+    .homepage-heading .front-end {
+        padding: 10vw;
+    }
+    .my-work h6 {
+        font-size: 9vw;
+    }
+    .my-work p {
+        font-size: 4vw;
     }
 }
