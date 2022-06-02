@@ -174,9 +174,9 @@ a {
     .homepage-heading-button {
         float: none;
         display: block;
-        font-size: 5vw;
+        font-size: 4vw;
         padding: 1% 2%;
-        margin: 0 20vw;
+        margin: 0 20vw 3vw;
         text-align: center;
     }
 }
