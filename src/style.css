@@ -192,6 +192,13 @@ a {
     }
     .homepage-heading .front-end {
         margin-top: 10vw;
+        margin-bottom: 5vw;
+    }
+    .homepage-heading h1 {
+        font-size: 16vw;
+    }
+    .homepage-heading h2 {
+        font-size: 12vw;
     }
 }
 
