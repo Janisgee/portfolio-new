@@ -154,6 +154,10 @@ a {
     padding: 2% 2%;
 }
 
+.pages-wrapper {
+    font-size: 16px;
+}
+
 .pages-wrapper .about-pages {
     background-image: url("/images/about-background.png");
     background-size: cover;
@@ -171,7 +175,7 @@ a {
 
 .pages-wrapper h1 {
     font-family: "Bayon";
-    font-size: 12vw;
+    font-size: 10em;
     padding-left: 13vw;
     text-align: right;
     line-height: 1;
@@ -183,27 +187,27 @@ a {
 } */
 
 .pages-wrapper h2 {
-    font-size: 8vw;
+    font-size: 8em;
     font-family: "Archivo Narrow";
     color: #5a5a5a;
     line-height: 1;
 }
 
 .pages-wrapper h6 {
-    font-size: 3vw;
+    font-size: 2em;
     font-family: "Archivo";
     color: #5a5a5a;
     padding-left: 20vw;
 }
 
 .pages-wrapper p {
-    font-size: 1.5vw;
+    font-size: 1.5em;
     font-family: "Archivo";
     color: #5a5a5a;
 }
 
 .pages-wrapper .about-pages .janis-image {
-    width: 28vw;
+    width: 350px;
     height: auto;
 }
 
@@ -226,7 +230,7 @@ a {
 }
 
 .pages-wrapper .my-hobby .hobby-images img {
-    width: 15vw;
+    width: 170px;
 }
 
 .pages-wrapper .my-skill {
@@ -249,7 +253,7 @@ a {
 }
 
 .pages-wrapper .skill-list img {
-    height: 7vw;
+    height: 100px;
 }
 
 .pages-wrapper .skill-list p {
