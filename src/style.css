@@ -58,7 +58,7 @@ footer {
 
 .homepage {
     background-image: url("/images/background.png");
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
 }
 
@@ -159,12 +159,9 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4px 13% 0%;
+    margin-top: 100px;
     margin-left: 0;
     margin-right: 0;
-}
-
-.pages-wrapper .about-pages {
-    margin-top: 100px;
 }
 
 .pages-wrapper .row {
@@ -199,6 +196,12 @@ a {
     padding-left: 20vw;
 }
 
+.pages-wrapper p {
+    font-size: 1.5vw;
+    font-family: "Archivo";
+    color: #5a5a5a;
+}
+
 .pages-wrapper .about-pages .janis-image {
     width: 28vw;
     height: auto;
@@ -206,10 +209,53 @@ a {
 
 .pages-wrapper hr {
     border: none;
-    height: 12px;
+    height: 5px;
     background: rgb(14, 1, 3);
     opacity: 100;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.pages-wrapper .my-hobby {
+    background-color: white;
+    padding: 2vw 13% 0%;
+}
+
+.pages-wrapper .my-hobby .hobby-images {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pages-wrapper .my-hobby .hobby-images img {
+    width: 15vw;
+}
+
+.pages-wrapper .my-skill {
+    padding: 4px 13% 0%;
+}
+
+.pages-wrapper .my-skill h2 {
+    color: #e84a70;
+    font-family: "Bayon";
+}
+
+.pages-wrapper .my-skill p {
+    color: #482fe5;
+    margin: 2vw auto;
+}
+
+.pages-wrapper .skill-list {
+    display: flex;
+    justify-content: center;
+}
+
+.pages-wrapper .skill-list img {
+    height: 7vw;
+}
+
+.pages-wrapper .skill-list p {
+    text-align: center;
+    margin-top: 1vw;
+    color: #5a5a5a;
 }
 
 @media (max-width: 1200px) {
