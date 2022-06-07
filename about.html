@@ -29,7 +29,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <a class="navbar-brand" href="/index.html">
                 <img class="fa-cog fa-spin janis-logo" style="--fa-animation-duration: 15s" src="/images/jc-logo-white.png" alt="Janis Chan Homepage" />
             </a>
@@ -90,7 +90,15 @@
                 </div>
                 <div class="col-xl-10">
                     <h1>Janis&nbsp;Chan</h1>
-                    <h6 class="about-subtitle">Hi, everyone! </br>I am a front-end developer based in Perth, Australia.</h6>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/images/janis-image.png" alt="Janis Chan" class="janis-image d-block d-xl-none" />
+                        </div>
+                        <div class="col-md-6 d-xl-none">
+                            <h6 class="about-subtitle">Hi, everyone! </br>I am a front-end developer based in Perth, Australia.</h6>
+                        </div>
+                    </div>
+                    <h6 class="about-subtitle d-none d-xl-block">Hi, everyone! </br>I am a front-end developer based in Perth, Australia.</h6>
                 </div>
                 <hr>
             </div>
@@ -98,12 +106,12 @@
         <div class="my-hobby">
             <p>I started my journey into software development industry on 2022. I was working in sales and marketing industry 10 years before and switched my career into tech industry. When I am on my free time, I love travel, yoga, cooking and gardening.</p>
             <div class="roll hobby-images mb-4">
-                <div class="col-3">
+                <div class="d-none  col-md-0 col-lg-3 d-md-block">
                     <img src="/images/about-image1.png" alt="">
                 </div>
-                <div class="col-3"><img src="/images/about-image2.png" alt=""></div>
-                <div class="col-3"><img src="/images/about-image3.png" alt=""></div>
-                <div class="col-3"><img src="/images/about-image4.png" alt=""></div>
+                <div class=" col-md-6 col-lg-3"><img class="mb-3" src="/images/about-image2.png" alt=""></div>
+                <div class=" col-md-6 col-lg-3"><img src="/images/about-image3.png" alt=""></div>
+                <div class="d-none  col-md-0 col-lg-3 d-md-block"><img src="/images/about-image4.png" alt=""></div>
             </div>
             <hr>
         </div>
@@ -113,28 +121,28 @@
             <p class="text-center">The tech I use to develop beautiful user interface ... and more ! </p>
             <div class="skill-list">
                 <div class="row ">
-                    <div class="col-3">
+                    <div class="col-6 col-md-3 skill-list-item">
                         <img src="/images/html.png" alt="">
                         <p>HTML</p>
                     </div>
-                    <div class="col-3"> <img src="/images/css.png" alt="">
+                    <div class="col-6 col-md-3 skill-list-item"> <img src="/images/css.png" alt="">
                         <p>CSS</p>
                     </div>
-                    <div class="col-3"> <img src="/images/js.png" alt="">
+                    <div class="col-6 col-md-3 skill-list-item"> <img src="/images/js.png" alt="">
                         <p>Javascript</p>
                     </div>
-                    <div class="col-3"> <img src="/images/api.png" alt="">
+                    <div class="col-6 col-md-3 skill-list-item"> <img src="/images/api.png" alt="">
                         <p>API</p>
                     </div>
                 </div>
             </div>
             <div class="skill-list">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-sm-12 col-md-6 skill-list-item">
                         <img src="/images/responsive.png" alt="">
                         <p>Responsive</p>
                     </div>
-                    <div class="col-6"> <img src="/images/seo.png" alt="">
+                    <div class="col-sm-12 col-md-6 skill-list-item"> <img src="/images/seo.png" alt="">
                         <p>SEO</p>
                     </div>
                 </div>
@@ -142,17 +150,17 @@
             <p class="text-center">The build tool I use ... and more!</p>
             <div class="skill-list">
                 <div class="row ">
-                    <div class="col-3">
+                    <div class="col-6 col-md-3 skill-list-item">
                         <img src="/images/github.png" alt="">
                         <p>Github</p>
                     </div>
-                    <div class="col-3"> <img src="/images/bootstrap.png" alt="">
+                    <div class="col-6 col-md-3 skill-list-item"> <img src="/images/bootstrap.png" alt="">
                         <p>Bootstrap</p>
                     </div>
-                    <div class="col-3"> <img src="/images/netlify.png" alt="">
+                    <div class="col-6 col-md-3 skill-list-item"> <img src="/images/netlify.png" alt="">
                         <p>Netlify</p>
                     </div>
-                    <div class="col-3"> <img src="/images/vs-code.png" alt="">
+                    <div class="col-6 col-md-3 skill-list-item"> <img src="/images/vs-code.png" alt="">
                         <p>Visual&nbsp;Studio Code</p>
                     </div>
                 </div>

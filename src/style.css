@@ -1,7 +1,6 @@
 body {
-    min-width: 500px;
     height: 100vh;
-    min-height: 150px;
+    /* min-height: 150px; */
     font-size: 100%;
 }
 
@@ -45,6 +44,7 @@ footer {
     width: 50px;
     height: auto;
     padding-left: 15px;
+    text-decoration: none;
 }
 
 .github-image {
@@ -170,7 +170,7 @@ a {
 
 .pages-wrapper .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .pages-wrapper h1 {
@@ -191,7 +191,8 @@ a {
 .pages-wrapper h6 {
     font-size: 2em;
     font-family: "Archivo";
-    color: #5a5a5a;
+    color: #482fe5;
+    font-weight: 600;
 }
 
 .pages-wrapper .about-subtitle {
@@ -224,11 +225,11 @@ a {
 
 .pages-wrapper .my-hobby .hobby-images {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .pages-wrapper .my-hobby .hobby-images img {
-    width: 190px;
+    width: 100%;
 }
 
 .pages-wrapper .my-skill {
@@ -250,7 +251,7 @@ a {
     justify-content: center;
 }
 
-.pages-wrapper .skill-list .col-3 {
+.pages-wrapper .skill-list .skill-list-item {
     flex: 0;
 }
 
@@ -302,10 +303,13 @@ a {
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
-        padding: 4px 13% 0%;
         margin-top: 100px;
         margin-left: 0;
         margin-right: 0;
+    }
+    .pages-wrapper .about-pages .janis-image {
+        width: 240px;
+        margin: 0 auto;
     }
     .pages-wrapper h1 {
         font-size: 8em;
@@ -337,7 +341,7 @@ a {
         font-size: 16vw;
     }
     .homepage-heading h2 {
-        font-size: 12vw;
+        font-size: 16vw;
     }
 }
 
@@ -350,5 +354,27 @@ a {
     }
     .my-work p {
         font-size: 4vw;
+    }
+    .page-wrapper {
+        padding: 2px 13% 0%;
+    }
+    .pages-wrapper .my-hobby .hobby-images {
+        display: block;
+    }
+    .pages-wrapper h1 {
+        font-size: 4.5em;
+    }
+    .pages-wrapper h2 {
+        font-size: 4.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar img {
+        max-width: 40px;
+    }
+    .pages-wrapper p {
+        font-size: 1.2em;
+        text-align: center;
     }
 }
