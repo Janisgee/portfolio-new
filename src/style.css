@@ -181,11 +181,6 @@ a {
     line-height: 1;
 }
 
-
-/* .pages-wrapper .about-pages h1 {
-    padding-left: 8vw;
-} */
-
 .pages-wrapper h2 {
     font-size: 8em;
     font-family: "Archivo Narrow";
@@ -197,6 +192,9 @@ a {
     font-size: 2em;
     font-family: "Archivo";
     color: #5a5a5a;
+}
+
+.pages-wrapper .about-subtitle {
     padding-left: 20vw;
 }
 
@@ -221,7 +219,7 @@ a {
 
 .pages-wrapper .my-hobby {
     background-color: white;
-    padding: 2vw 13% 0%;
+    padding: 10px 13% 0%;
 }
 
 .pages-wrapper .my-hobby .hobby-images {
@@ -230,7 +228,7 @@ a {
 }
 
 .pages-wrapper .my-hobby .hobby-images img {
-    width: 170px;
+    width: 190px;
 }
 
 .pages-wrapper .my-skill {
@@ -244,12 +242,16 @@ a {
 
 .pages-wrapper .my-skill p {
     color: #482fe5;
-    margin: 2vw auto;
+    margin: 25px auto;
 }
 
 .pages-wrapper .skill-list {
     display: flex;
     justify-content: center;
+}
+
+.pages-wrapper .skill-list .col-3 {
+    flex: 0;
 }
 
 .pages-wrapper .skill-list img {
@@ -258,8 +260,15 @@ a {
 
 .pages-wrapper .skill-list p {
     text-align: center;
-    margin-top: 1vw;
+    margin-top: 1px;
     color: #5a5a5a;
+    line-height: 1;
+}
+
+@media (min-width: 1400px) {
+    .pages-wrapper {
+        padding: 4px 13% 0%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -287,6 +296,27 @@ a {
         padding: 1% 2%;
         margin: 0 20vw 3vw;
         text-align: center;
+    }
+    .pages-wrapper .about-pages {
+        background-image: url("/images/about-background-2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 4px 13% 0%;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pages-wrapper h1 {
+        font-size: 8em;
+        padding-left: 0;
+        text-align: center;
+    }
+    .pages-wrapper h2 {
+        font-size: 6em;
+    }
+    .pages-wrapper .about-subtitle {
+        padding-left: 0;
     }
 }
 
