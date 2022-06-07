@@ -15,7 +15,7 @@ footer {
 
 .navbar img {
     max-width: 13%;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .navbar-collapse {
@@ -102,7 +102,7 @@ footer {
 
 .my-work {
     background-color: #363131;
-    padding: 6% 18% 0%;
+    padding: 6% 13% 0%;
 }
 
 .my-work h2 {
@@ -156,6 +156,7 @@ a {
 
 .pages-wrapper {
     font-size: 16px;
+    padding: 4px 13% 0%;
 }
 
 .pages-wrapper .about-pages {
@@ -176,9 +177,12 @@ a {
 .pages-wrapper h1 {
     font-family: "Bayon";
     font-size: 10em;
-    padding-left: 13vw;
-    text-align: right;
     line-height: 1;
+}
+
+.pages-wrapper .title {
+    text-align: right;
+    padding-left: 13vw;
 }
 
 .pages-wrapper h2 {
@@ -266,10 +270,35 @@ a {
     line-height: 1;
 }
 
+.pages-wrapper .page-skin {
+    padding: 4px 13% 0%;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.page-skin h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact-page {
+    background-color: #363131;
+    padding: 4px 0% 0%;
+}
+
+.contact-page .contact-janis-image {
+    width: 400px;
+    height: auto;
+    display: inline;
+    float: right;
+}
+
 @media (min-width: 1400px) {
-    .pages-wrapper {
-        padding: 4px 13% 0%;
-    }
+    /* .contact-page {
+        background-color: #363131;
+        padding-left: 0;
+    } */
 }
 
 @media (max-width: 1200px) {
