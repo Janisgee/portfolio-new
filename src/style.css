@@ -156,7 +156,6 @@ a {
 
 .pages-wrapper {
     font-size: 16px;
-    padding: 4px 13% 0%;
 }
 
 .pages-wrapper .about-pages {
@@ -271,15 +270,18 @@ a {
 }
 
 .pages-wrapper .page-skin {
-    padding: 4px 13% 0%;
+    padding: 4px 20% 0%;
     margin-top: 100px;
     margin-left: 0;
     margin-right: 0;
 }
 
 .page-skin h1 {
-    margin: 20px auto;
     text-align: center;
+}
+
+.page-skin .contact-paragraph {
+    margin-bottom: 60px;
 }
 
 .contact-page {
@@ -292,6 +294,33 @@ a {
     height: auto;
     display: inline;
     float: right;
+}
+
+.contact-location {
+    background: url("/images/contact-background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 4px 20% 0%;
+}
+
+.contact-location p {
+    color: black;
+    background-color: #e84a6f6f;
+    border-radius: 20px;
+    padding: 30px 30px;
+    margin: 0 180px;
+    width: 400px;
+    position: relative;
+    top: 60px;
+    right: 200px;
+}
+
+.contact-location img {
+    border-radius: 50px;
+    width: 580px;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (min-width: 1400px) {
@@ -351,6 +380,20 @@ a {
     .pages-wrapper .about-subtitle {
         padding-left: 0;
     }
+    .contact-page .contact-janis-image {
+        width: 320px;
+        display: block;
+        float: unset;
+        margin: 0 auto;
+    }
+    .contact-page p {
+        margin: 20px auto;
+    }
+    .contact-page img,
+    .contact-linkedin-icon {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 992px) {
@@ -371,6 +414,20 @@ a {
     }
     .homepage-heading h2 {
         font-size: 16vw;
+    }
+    .contact-page h1 {
+        font-size: 13vw;
+    }
+    .contact-location p {
+        position: unset;
+        display: block;
+        align-items: center;
+        width: 100%;
+    }
+    .contact-location img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -405,5 +462,8 @@ a {
     .pages-wrapper p {
         font-size: 1.2em;
         text-align: center;
+    }
+    .contact-location p {
+        font-size: 1em;
     }
 }
