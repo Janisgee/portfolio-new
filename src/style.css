@@ -162,6 +162,9 @@ a {
     background-image: url("/images/about-background.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.page-setting {
     padding: 4px 13% 0%;
     margin-top: 100px;
     margin-left: 0;
@@ -321,6 +324,20 @@ a {
     width: 580px;
     display: block;
     margin: 0 auto;
+}
+
+.project-webpage {
+    background: url("/images/sake-project-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-webpage h1 {
+    font-size: 7em;
+}
+
+.project-webpage p {
+    text-align: center;
 }
 
 @media (min-width: 1400px) {
