@@ -151,6 +151,7 @@ a {
 }
 
 .my-work a {
+    font-weight: 700;
     text-decoration: none;
     color: #9671f3;
     border-radius: 10px;
@@ -358,7 +359,7 @@ a {
     text-align: center;
 }
 
-.project-webpage .webpage-project-paragraph {
+.project-webpage .project-paragraph {
     background-color: #ddc9802e;
     padding: 20px;
     border-radius: 10px;
@@ -404,9 +405,13 @@ a {
     text-decoration: none;
     color: #9671f3;
     font-weight: 700;
+    border: 1px solid #9671f3;
+    padding: 2% 2%;
+    border-radius: 10px;
 }
 
-.project-webpage .webpage-project-button:hover,
+.homepage-heading-button:hover,
+d.project-webpage .webpage-project-button:hover,
 .project-webpage .open-source:hover,
 .project-webpage .back-to-work-button a:hover {
     color: rgb(240, 78, 105);
