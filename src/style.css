@@ -410,10 +410,17 @@ a {
     border-radius: 10px;
 }
 
+.contact-page .mail-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(57, 64, 252);
+}
+
 .homepage-heading-button:hover,
 d.project-webpage .webpage-project-button:hover,
 .project-webpage .open-source:hover,
-.project-webpage .back-to-work-button a:hover {
+.project-webpage .back-to-work-button a:hover,
+.contact-page .mail-link:hover {
     color: rgb(240, 78, 105);
 }
 
