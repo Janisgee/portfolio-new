@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a webpage designed and coded by Janis Chan. The topic is related to sake, it is an example webpage." />
 
     <!-- Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,55 +29,45 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
-                <img class="fa-cog fa-spin janis-logo" style="--fa-animation-duration: 15s" src="/images/jc-logo-white.png" alt="Janis Chan Homepage" />
+                <img class="fa-cog fa-spin janis-logo" style="--fa-animation-duration: 15s" src="/images/jc-logo-white.png" alt="Janis Chan Homepage" title="Janis Chan Homepage">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav top-navbar">
                     <li class="nav-item top-navbar-words">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a
-              >
-            </li>
-            <li class="nav-item top-navbar-words">
-              <a class="nav-link" href="/about.html">About</a>
+                        <a class="nav-link" aria-current="page" href="/index.html" title="Homepage">Home</a>
+                    </li>
+                    <li class="nav-item top-navbar-words">
+                        <a class="nav-link" href="/about.html" title="About Janis">About</a>
                     </li>
                     <li class="nav-item dropdown top-navbar-words">
-                        <a class="nav-link dropdown-toggle" href="/index.html#my-work" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                My-Work
-              </a>
+                        <a class="nav-link dropdown-toggle active" href="/index.html#my-work" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="Projects">
+            My-Work
+          </a>
                         <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                            <li>
-                                <a class="dropdown-item top-navbar-drop" href="/weather-project.html">Weather Project</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item top-navbar-drop"
-                    href="/webpage-project.html"
-                    >Webpage Project</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item top-navbar-words">
-              <a class="nav-link" href="/contact.html">Contact</a>
-                            </li>
-                            <div class="container">
-                                <div class="row">
-                                    <li class="nav-item col">
-                                        <a class="fa-brands fa-linkedin linkin-image text-light fa-3x" href="https://www.linkedin.com/in/jc-janis-chan" title="LinkedIn" target="_blank"></a>
-                                    </li>
-                                    <li class="nav-item col">
-                                        <a class="fa-brands fa-github-square github-image text-light fa-3x" href="https://github.com/Janisgee/portfolio-new" title="Github" target="_blank"></a>
-                                    </li>
-                                </div>
-                            </div>
+                            <li><a class="dropdown-item top-navbar-drop" href="/weather-project.html" title="Weather App">Weather Project</a></li>
+                            <li><a class="dropdown-item top-navbar-drop" href="/webpage-project.html" title="Sake Webpage">Webpage Project</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item top-navbar-words">
+                        <a class="nav-link" href="/contact.html" title="Contact Janis">Contact</a>
+                    </li>
+                    <div class="container">
+                        <div class="row">
+                            <li class="nav-item col">
+                                <a class="fa-brands fa-linkedin linkin-image text-light fa-3x" href="https://www.linkedin.com/in/jc-janis-chan" title="LinkedIn Profile" target="_blank"></a>
+                            </li>
+                            <li class="nav-item col">
+                                <a class="fa-brands fa-github-square github-image text-light fa-3x" href="https://github.com/Janisgee/portfolio-new" title="Github Profile" target="_blank"></a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
             </div>
         </div>
     </nav>
@@ -86,19 +77,19 @@
             <p class="webpage-project-paragraph">
                 Sake World is a webpage contents a lot of knowledge regarding different grading of Japanese sake. Each grading of sake has its own differentiation and characteristic. You can learn a lot of sake knowledge from this webpage.
             </p>
-            <a class="btn btn-warning webpage-project-button" href="https://sake-world.netlify.app" target="_blank">Launch Sake&nbsp;World Webpage</a
+            <a class="btn btn-warning webpage-project-button" href="https://sake-world.netlify.app" target="_blank" title="Go to Sake Webpage">Launch Sake&nbsp;World Webpage</a
         >
-        <img src="/images/sake-webpage.png" alt="" target="_blank" />
+        <img src="/images/sake-webpage.png" alt="Sake Webpage Image" target="_blank" title="Sake Webpage Image"/>
         <p class="open-source-p">
           <a
             class="open-source"
-            href="https://github.com/Janisgee/portfolio-new" target="_blank"
+            href="https://github.com/Janisgee/portfolio-new" target="_blank" title="Sake Webpage Open Source"
             >Open-source</a
           >
           code by Janis Chan
         </p>
         <div class="back-to-work-button">
-          <a href="/index.html#my-work">Back to my work👉</a>
+          <a href="/index.html#my-work" title="Back to My Work">Back to my work👉</a>
             <footer style="color: black">© 2022 Janis Chan</footer>
         </div>
     </div>

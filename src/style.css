@@ -1,16 +1,21 @@
+:root {
+    --primary-heading-font-size: "Bayon";
+    --secondary-heading-font-size: "Archivo Narrow";
+    --paragraph-font-family: "Archivo";
+    --border-radius: 10px;
+}
+
 html {
     height: 100%;
 }
 
 body {
     min-height: 100%;
-    /* height: 100vh; */
-    /* min-height: 150px; */
     font-size: 100%;
 }
 
 footer {
-    font-family: "Archivo";
+    font-family: var(--paragraph-font-family);
     font-size: 1em;
     color: white;
     text-align: center;
@@ -78,14 +83,14 @@ footer {
 }
 
 .homepage-heading h1 {
-    font-family: "Bayon";
+    font-family: var(--primary-heading-font-size);
     font-size: 12vw;
     text-align: right;
     margin-bottom: 0px;
 }
 
 .homepage-heading h2 {
-    font-family: "Archivo Narrow";
+    font-family: var(--secondary-heading-font-size);
     font-size: 12vw;
     line-height: 10vw;
 }
@@ -99,7 +104,7 @@ footer {
 }
 
 .homepage-heading-button {
-    font-family: "Archivo";
+    font-family: var(--paragraph-font-family);
     font-size: 50px;
     float: left;
     color: black;
@@ -119,7 +124,7 @@ footer {
 .my-work h2 {
     font-size: 12vw;
     color: white;
-    font-family: "Bayon";
+    font-family: var(--primary-heading-font-size);
     text-shadow: 4px 0px 0px #9ca16f;
     padding-bottom: 3%;
 }
@@ -132,20 +137,20 @@ footer {
 .my-work .my-work-wrapper {
     background-color: white;
     padding: 5% 5%;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     margin: 0 auto;
     margin-bottom: 5%;
 }
 
 .my-work img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     box-shadow: 4px 3px 6px #a5a5a5;
 }
 
 .my-work p,
 a {
-    font-family: "Archivo";
+    font-family: var(--paragraph-font-family);
     font-size: 1.5em;
     color: #636262;
 }
@@ -154,7 +159,7 @@ a {
     font-weight: 700;
     text-decoration: none;
     color: #9671f3;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .my-work a:hover {
@@ -189,7 +194,7 @@ a {
 }
 
 .pages-wrapper h1 {
-    font-family: "Bayon";
+    font-family: var(--primary-heading-font-size);
     font-size: 10em;
     line-height: 1;
 }
@@ -201,14 +206,14 @@ a {
 
 .pages-wrapper h2 {
     font-size: 8em;
-    font-family: "Archivo Narrow";
+    font-family: var(--secondary-heading-font-size);
     color: #5a5a5a;
     line-height: 1;
 }
 
 .pages-wrapper h6 {
     font-size: 2em;
-    font-family: "Archivo";
+    font-family: var(--paragraph-font-family);
     color: #482fe5;
     font-weight: 600;
 }
@@ -219,7 +224,7 @@ a {
 
 .pages-wrapper p {
     font-size: 1.5em;
-    font-family: "Archivo";
+    font-family: var(--paragraph-font-family);
     color: #5a5a5a;
     padding-bottom: 50px;
 }
@@ -257,7 +262,7 @@ a {
 
 .pages-wrapper .my-skill h2 {
     color: #e84a70;
-    font-family: "Bayon";
+    font-family: var(--primary-heading-font-size);
 }
 
 .pages-wrapper .my-skill p {
@@ -328,11 +333,13 @@ a {
 
 .contact-location p {
     color: black;
+    font-size: 1.5em;
+    font-family: var(--paragraph-font-family);
     background-color: #e84a6f6f;
     border-radius: 20px;
     padding: 30px 30px;
     margin: 0 180px;
-    width: 400px;
+    width: 500px;
     position: relative;
     top: 60px;
     right: 200px;
@@ -362,7 +369,7 @@ a {
 .project-webpage .project-paragraph {
     background-color: #ddc9802e;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .project-webpage img {
@@ -370,7 +377,7 @@ a {
     display: block;
     margin: 0 auto;
     box-shadow: 4px 3px 6px #a5a5a5;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .project-webpage .webpage-project-button {
@@ -378,7 +385,7 @@ a {
     width: 400px;
     margin: 50px auto;
     box-shadow: 4px 3px 6px #a5a5a5;
-    font-family: "Archivo";
+    font-family: var(--paragraph-font-family);
     font-size: 30px;
     font-weight: 700;
 }
@@ -407,7 +414,7 @@ a {
     font-weight: 700;
     border: 1px solid #9671f3;
     padding: 2% 2%;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .contact-page .mail-link {
@@ -417,7 +424,7 @@ a {
 }
 
 .homepage-heading-button:hover,
-d.project-webpage .webpage-project-button:hover,
+.project-webpage .webpage-project-button:hover,
 .project-webpage .open-source:hover,
 .project-webpage .back-to-work-button a:hover,
 .contact-page .mail-link:hover {
@@ -524,6 +531,9 @@ d.project-webpage .webpage-project-button:hover,
         display: block;
         align-items: center;
         width: 100%;
+    }
+    .contact-location .mail-link {
+        font-size: 0.9em;
     }
     .contact-location img {
         width: 100%;
