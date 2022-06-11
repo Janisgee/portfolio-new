@@ -343,6 +343,7 @@ a {
     position: relative;
     top: 60px;
     right: 200px;
+    box-shadow: 2px 2px 5px 0px #a56e77;
 }
 
 .contact-location img {
